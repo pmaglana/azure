@@ -1,1 +1,1 @@
-# MS Azure X Active Directory
+# MS Azure
