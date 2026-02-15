@@ -20,7 +20,7 @@ The main objective of this project is to familiarize MS Azure's portal and envir
 
 <h3> 1. Create a free subscription or Pay As You Go subscription at https://azure.microsoft.com/en-us/free/ </h3>
 
-  <details><summary>See screenshots</summary>
+  <details><summary>Screenshots. Click to enlarge</summary>
   <img src="images/azure1.png" width="40%" >
   </details> 
 
@@ -31,7 +31,7 @@ The main objective of this project is to familiarize MS Azure's portal and envir
      - Click Create a resource > All services. (Shows all available Azure services)
      - Click the three horizontal bars at the very top left of the page, then the Favorites and mostly used services including other options of the website drops down.
      - And lastly by using the Search bar at the very top part of the page.
-     <details><summary>See screenshots</summary>
+     <details><summary>Screenshots. Click to enlarge</summary>
      <img src="images/azure2.png" width="40%" >
      </details> 
      
@@ -45,7 +45,7 @@ The main objective of this project is to familiarize MS Azure's portal and envir
 - Under Region, you can use East US 2 or any other region, just make sure you are using the same one for your vm and network RG.
 - Click on Review + create button, then hit Create.
 - To check your newly created resource group *rgLabTest*, Serch resource group and verify if you have it.
-     <details><summary>See screenshots</summary>
+     <details><summary>Screenshots. Click to enlarge</summary>
      <img src="images/azure-rg.png" width="40%" >
      <img src="images/azure-rg2.png" width="40%" >
      <img src="images/azure-rg3.png" width="40%" >
@@ -62,7 +62,7 @@ The main objective of this project is to familiarize MS Azure's portal and envir
      - Size: Standard_D4s_v3 - 4 vcpus, 16GB RAM *(option2: 2 vcpus, 8gb RAM)*
      - Username: labuser
      - Password: LabtechPass1
-     <details><summary>See screenshots</summary>
+     <details><summary>Screenshots. Click to enlarge</summary>
      <img src="images/azure-vm1.png" width="40%" >
      <img src="images/azure-vm2.png" width="40%" >
      <img src="images/azure-vm3.png" width="40%" >
@@ -70,10 +70,12 @@ The main objective of this project is to familiarize MS Azure's portal and envir
 - Make sure to tick Licensing checkbox, then click Review + create
 - When you get the green check mark Validation passed message, Click Create.
 - And after the deployment, click Got to resource and verify if successful. 
-     <details><summary>See screenshots</summary>
+     <details><summary>Screenshots. Click to enlarge</summary>
      <img src="images/azure-vm3.png" width="40%" >
      <img src="images/azure-vm4.png" width="40%" >
      </details> 
+     
+<h3> 3. Connecting to a Virtual machine using Remote desktop.</h3>
 
 
 
