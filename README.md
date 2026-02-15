@@ -35,7 +35,7 @@ The main objective of this project is to familiarize MS Azure's portal and envir
      <img src="images/azure2.png" width="40%" >
      </details> 
      
-<h3> 2. Creating a Resource group, Virtual machine and a Network Group</h3>
+<h3> 3. Creating Virtual machine and it's Resource group</h3>
 
 - Type in the Search bar "resource group".
 - Click the "+" sign to Create a New resource group.
@@ -44,10 +44,47 @@ The main objective of this project is to familiarize MS Azure's portal and envir
 - Type-in *rgLabTest* for the Resource group name.
 - Under Region, you can use East US 2 or any other region, just make sure you are using the same one for your vm and network RG.
 - Click on Review + create button, then hit Create.
+- To check your newly created resource group *rgLabTest*, Serch resource group and verify if you have it.
      <details><summary>See screenshots</summary>
      <img src="images/azure-rg.png" width="40%" >
      <img src="images/azure-rg2.png" width="40%" >
      <img src="images/azure-rg3.png" width="40%" >
      </details> 
 
-  
+- To create a new VM, type in the search bar virtual machine.
+- Click on the + create button, and select Virtual machine.
+- Enter/Select the following on their respective textboxes:
+     - Subscription: Azure subscription 1
+     - Resource group: rgLabTest
+     - Virtual machine name: vmLabTest
+     - Availability zone: Zone 1 *(you can choose a diff zone if you want)*
+     - Image: Windows 10 Ent, version 22H2 - x64 Gen2 *look for any Windows that won't give you errors*
+     - Size: Standard_D4s_v3 - 4 vcpus, 16GB RAM *(option2: 2 vcpus, 8gb RAM)*
+     - Username: labuser
+     - Password: LabtechPass1
+     <details><summary>See screenshots</summary>
+     <img src="images/azure-vm1.png" width="40%" >
+     <img src="images/azure-vm2.png" width="40%" >
+     <img src="images/azure-vm3.png" width="40%" >
+     </details> 
+- Make sure to tick Licensing checkbox, then click Review + create
+- When you get the green check mark Validation passed message, Click Create.
+- And after the deployment, click Got to resource and verify if successful. 
+     <details><summary>See screenshots</summary>
+     <img src="images/azure-vm3.png" width="40%" >
+     <img src="images/azure-vm4.png" width="40%" >
+     </details> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
