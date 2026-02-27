@@ -75,7 +75,6 @@ The main objective of this project is to familiarize MS Azure's portal and envir
      <img src="images/azure-vm4.png" width="40%" >
      </details> 
      
-<h3> 3. Connecting to a Virtual machine using Remote desktop.</h3>
 
 
 
